@@ -1,0 +1,75 @@
+<!-- კომენტარებით ახსენით controls -->
+<!-- ეს ნიშნავს, რომ ვიდეოზე გამოჩნდება მართვის პანელი —
+ანუ Play / Pause ღილაკი -->
+
+
+
+<!-- autoplay
+muted
+loop  
+type ატრიბუტები. -->
+
+
+<!--autoplay ამით ვიდეო ავტომატურად იწყება, როგორც კი გვერდი ჩაიტვირთება. -->
+
+<!-- muted ეს ნიშნავს, რომ ვიდეო იწყება უხმოდ, -->
+
+
+<!-- loop ვიდეო დასრულების შემდეგ თავიდან იწყებს დაკვრას — ანუ მუდმივად ტრიალებს. -->\
+
+<!--  type გამოიყენება <source> ტეგში და მიუთითებს ფაილის ტიპს, რომ ბრაუზერმა იცოდეს როგორ ფორმატშია ვიდეო. -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+  <h1>RRegistration</h1>
+
+  <form>
+    
+    <label for="fname">name:</label><br>
+    <input type="text" id="fname" name="first_name" placeholder="type your name:" required>
+    <br><br>
+
+   
+    <label for="lname">surname:</label><br>
+    <input type="text" id="lname" name="last_name" placeholder="type your surname" required>
+    <br><br>
+
+    
+    <label for="email">email:</label><br>
+    <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+    <br><br>
+
+    
+    <label for="password">password:</label><br>
+    <input type="password" id="password" name="password" placeholder="type your password:" required>
+    <br><br>
+
+    
+    <label for="country">country:</label><br>
+    <select id="country" name="country" required>
+      <option value="" selected >georgia</option>
+      <option value="georgia">Georgia</option>
+      <option value="france">France</option>
+      <option value="spain">Spain</option>
+      <option value="germany">Germany</option>
+      <option value="italy">Italy</option>
+      <option value="uk">United Kingdom</option>
+      <option value="usa">United States</option>
+      <option value="japan">Japan</option>
+      <option value="turkey">Turkey</option>
+      <option value="poland">Poland</option>
+    </select>
+    <br><br>
+
+    <button>sign up</button>
+  </form>
+</body>
+</html>
