@@ -1,0 +1,38 @@
+#head{
+ 
+    color: aqua;
+    background-color: blueviolet;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+#mclaren{
+
+    color: rgb(247, 3, 3);
+    background-color: rgb(199, 222, 246);
+    font-family: "Oleo Script", system-ui;
+    text-shadow: 3px 3px 5px rgb(248, 120, 90);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+#dodge{
+
+    color: rgb(21, 21, 190);
+    background-color: rgb(224, 230, 236);
+    font-family: "BBH Bartle", sans-serif;
+    text-shadow: 7px 4px 11px rgb(112, 117, 255);
+}
+
+
+#but1{
+    color: rgb(255, 0, 0);
+    
+}
+
+
+#but2{
+
+    color: rgb(42, 42, 139);
+    
+}
