@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
+#go{
+
+    color: rgb(88, 88, 176);
+    background-color: rgb(75, 182, 182);
+    font-family: "Jacquard 12 Charted", system-ui;
+    text-shadow: 2px rgb(rgb(91, 49, 49), rgb(57, 45, 167), rgb(62, 210, 54))
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#og {
+
+    color: rgb(165, 14, 90);
+    background-color: rgb(75, 182, 182);
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 2px rgb(rgb(152, 70, 70), rgb(61, 120, 61), rgb(32, 32, 106))
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+nav a:active {
+    background-color: #555;
+    color: yellow;
+}
