@@ -1,0 +1,25 @@
+ol{
+
+    list-style-type:lower-alpha;
+    color: blueviolet;
+    list-style-image: url(./chess_bishop_18dp_1F1F1F_FILL0_wght400_GRAD0_opsz20.svg);
+    
+}
+
+
+
+input[type="text"]{
+    border: 2px solid rgb(89, 16, 157);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+#ol{
+
+    list-style-type: decimal;
+    color: rgb(111, 111, 236);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    list-style: upper-alpha;
+}
+
+
+
+
+#ul{
+
+    list-style-position: inside;
+    list-style-type: square;
+    color: rgb(0, 255, 149);
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+
+#ol1{
+
+    list-style-type: disc;
+    color: rgb(95, 83, 75);
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+#ul3{
+
+    list-style-type: square;
+    color: rgb(123, 20, 20);
+    list-style-image: url(./1-red-star-png-image-thumb.png)
+    
+
+}
+
+
+

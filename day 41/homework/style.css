@@ -1,0 +1,38 @@
+#list{
+  width: 50x;
+  height: 10px;
+  background: rgb(149, 225, 9);
+  border-radius: 20px;
+
+
+}
+
+
+
+#image {
+
+      width: 200px;
+    height: auto;   /* რომ პროპორციები არ დაირღვეს */
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+#qw {
+
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  margin: 20px;
+}
+
+
+#qo {
+
+  font-family: 'Righteous', cursive;
+  font-size: 90px;
+  margin: 100px;
+
+
+}

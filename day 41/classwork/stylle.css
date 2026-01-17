@@ -1,0 +1,48 @@
+#id{
+
+    color: red;
+    border-radius: 10px 5px 15px 20px;
+    border: 2px solid black;
+
+
+}
+
+
+
+
+a{
+
+    color: blue;
+    border-radius: 15px 20px 5px 10px;
+
+}
+
+
+
+
+#b{
+
+    color: green;
+    border-radius: 5px 15px 20px 10px;
+    background-color: lightgreen;
+
+}
+
+
+
+#c{
+
+    color: orange;
+    border-radius: 20px 10px 15px 5px;
+    border: 3px dashed brown;
+
+}
+
+
+#c1{
+
+    color: purple;
+    border-radius: 10px 20px 5px 3px;
+    border: 4px dotted violet;
+
+}
