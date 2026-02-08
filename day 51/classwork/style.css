@@ -1,0 +1,83 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+.card {
+
+    width: 600px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    overflow: hidden;
+    margin-left: 120px;
+} 
+
+
+.image img{
+
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.content {
+
+    padding: 25px;
+    width: 300px;
+
+}
+
+.category {
+    color: gray;
+    font-size: 15px
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+.desc {
+
+    font-size: 15px;
+    color: gray;
+}
+
+
+.price {
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.current {
+
+    color: green;
+    font-size: 25px;
+}
+
+
+.old {
+
+    text-decoration: line-through;
+    color: grey;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(60, 128, 103);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}   
+

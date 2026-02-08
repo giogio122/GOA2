@@ -1,0 +1,46 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cards div{
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+
+#south{
+  background-image: url(./download.jpg);
+}
+
+#tbilisi{
+  background-image: url(./download\ \(1\).jpg);
+}
+
+#newyork{
+  background-image: url(./download\ \(2\).jpg);
+}
+
+#paris{
+  background-image: url(./download\ \(3\).jpg);
+}
+
+#tokyo{
+  background-image: url(./download\ \(4\).jpg);
+}
+
+#dubai{
+  background-image: url(./download\ \(5\).jpg);
+}
