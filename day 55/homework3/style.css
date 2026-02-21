@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e6eff6;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+}
+
+.card {
+  width: 760px;
+  max-width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* TOP (სრული სიგანე) */
+.top {
+  grid-column: 1 / 3;
+  background: #ffffff;
+  padding: 40px;
+}
+
+.top h1 {
+  margin: 0 0 15px;
+  color: #2ab2af;
+  font-size: 28px;
+}
+
+.top h3 {
+  margin: 0 0 12px;
+  color: #c0df34;
+  font-size: 18px;
+}
+
+.top p {
+  margin: 0;
+  color: #7a8a9a;
+  line-height: 1.6;
+}
+
+/* LEFT */
+.left {
+  background: #2ab2af;
+  color: white;
+  padding: 35px 40px;
+}
+
+.left h2 {
+  margin: 0 0 18px;
+  font-size: 18px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.money {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.per {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.small {
+  margin: 0 0 25px;
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+  display: block;
+  text-align: center;
+  background: #c0df34;
+  color: #1c3a3a;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* RIGHT */
+.right {
+  background: #35c2bf;
+  color: white;
+  padding: 35px 40px;
+}
+
+.right h2 {
+  margin: 0 0 15px;
+  font-size: 18px;
+}
+
+.right ul {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.7;
+  opacity: 0.9;
+  font-size: 14px;
+}
